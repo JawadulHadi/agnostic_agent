@@ -1,0 +1,29 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Vercel
+.vercel
+
+# Supabase CLI local state (config.toml and migrations are committed)
+supabase/.branches
+supabase/.temp
+
+# npm lockfile — bun.lock is canonical for this project
+package-lock.json
+
+# Local AI-agent tooling (skill docs, not application code)
+.agents/
+skills-lock.json
+
+# Exported chat transcripts (may contain personal document content)
+qelomalens_chat_*.md
+qelomalens_chat_*.json
+
+.vercel
+.env*

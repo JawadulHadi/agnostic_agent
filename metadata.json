@@ -1,0 +1,6 @@
+{
+  "name": "DocuMind AI",
+  "description": "NotebookLM-style agentic document understanding workspace with multi-turn ReAct reasoning, grounded sources, studio artifacts, multi-theme conversions, and authentication.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
